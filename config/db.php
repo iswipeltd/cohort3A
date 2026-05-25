@@ -7,7 +7,7 @@ $database = "hr_suite_db";
 $conn = mysqli_connect(
     "zephyr.proxy.rlwy.net",
     "root",
-    "YOUR_PASSWORD_HERE",
+    "QQTNGduqoNDquPCINkcVtfyujjLNapDE",
     "railway",
     46894
 );
