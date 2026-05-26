@@ -104,10 +104,6 @@ $role = $_SESSION['role'] ?? '';
                    Dashboard
                 </a>    
 
-                <a class="nav-link" href="../tasks/user_task.php">
-                    <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>
-                    My Tasks
-                </a>
 
 
                 <a class="nav-link" href="../employee_dashboard/profile.php">
@@ -117,6 +113,14 @@ $role = $_SESSION['role'] ?? '';
                  My Profile
                 </a>
 
+                 <div class="sb-sidenav-menu-heading">Operations</div>
+                
+                <a class="nav-link" href="../tasks/user_task.php">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tasks"></i></div>
+                    My Tasks
+                </a>
+
+
 
 
                 <a class="nav-link" href="../employee_dashboard/leave.php">
@@ -125,6 +129,8 @@ $role = $_SESSION['role'] ?? '';
                 </div>
                 My Leave
                 </a>
+
+                <div class="sb-sidenav-menu-heading">Operations</div>
 
                 <a class="nav-link" href="../employee_dashboard/attendance.php">
                 <div class="sb-nav-link-icon">
@@ -144,7 +150,7 @@ $role = $_SESSION['role'] ?? '';
                 <?php endif; ?>
 
 
-                
+
 
                 <div class="sb-sidenav-footer">
                 <div class="small">Logged in as:</div>
