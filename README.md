@@ -69,8 +69,8 @@ A complete PHP/MySQL-based HR management platform with separate Admin and Employ
 
 | Role      | Email                  | Password       |
 |-----------|------------------------|----------------|
-| Admin     | admin@hrsuite.com      | Admin@123      |
-| Employee  | john.doe@hrsuite.com   | Employee@123   |
+| Admin     | admin@hrsuite.com      | password      |
+| Employee  | john.doe@hrsuite.com   | password   |
 
 **Note:** Change default passwords immediately after first login.
 
